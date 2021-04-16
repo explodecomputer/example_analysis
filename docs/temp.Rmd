@@ -1,0 +1,31 @@
+---
+title: Some document
+author: Gibran Hemani
+---
+
+```{r}
+library(knitr)
+opts_chunk$set(cache=TRUE, dev="pdf")
+```
+
+
+This document does the follwoing
+
+1. Extract some data
+2. Do something sick
+
+
+## Extract data
+
+```{r firstchunk}
+plot(1:10)
+```
+
+
+## Do something
+
+```{r}
+asda <- 1
+print(asda)
+```
+
